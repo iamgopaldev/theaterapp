@@ -1,0 +1,29 @@
+body {
+  font-family: Monolisa, Arial, Helvetica, sans-serif;
+  color: rgb(41, 42, 44);
+  border: 2px solid gray;
+  border-radius: 6px;
+}
+h1{
+  text-decoration: underline;
+  font-size: 28px;
+}
+h1, h2{
+  text-align: center;
+}
+article img{
+  margin: 20px 500px;
+  border-radius: 6px;
+}
+article p {
+  text-align: left;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 30px 100px;
+  margin: 5px 200px;
+}
+article h3, article h4{
+  text-align: center;
+}

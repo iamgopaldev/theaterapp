@@ -1,0 +1,77 @@
+.body-style {
+  font-family: Monolisa, Arial, Helvetica, sans-serif;
+  color: rgb(41, 42, 44);
+}
+
+/* Navigation section style */
+
+.main-header {
+  font-size: 18px;
+  padding: 3px 45px;
+  text-decoration: none;
+  color: rgb(41, 42, 44);
+}
+.home-link {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li .nav-link {
+  display: block;
+  color: rgb(41, 42, 44);
+  font-size: 15px;
+  text-align: center;
+  padding: 14px 45px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li .nav-link:hover {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+}
+
+.title-left {
+  float: left;
+}
+
+/* Main Section Style */
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-over-line {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer Section Style */
+.footer-style {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(41, 42, 44);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.copyright-information {
+  font-weight: 25px;
+}
+.copyright-title-bold {
+  font-weight: bold;
+  font-style: italic;
+}

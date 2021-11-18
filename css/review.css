@@ -1,0 +1,39 @@
+body {
+  font-family: Monolisa, Arial, Helvetica, sans-serif;
+  color: rgb(41, 42, 44);
+  margin: 20px 20px;
+}
+.heading-title {
+  text-align: center;
+  text-decoration: underline;
+}
+article img {
+  margin: 20px 500px;
+  height: 500px;
+  width: 400px;
+  border-radius: 5px;
+}
+h4 a {
+  color: red;
+  text-decoration: none;
+}
+article p {
+  text-align: left;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 40px 100px;
+  margin: 5px 200px;
+}
+.btn-style {
+  text-align: center;
+}
+.btn-style button {
+  border: 2px solid;
+  background-color: #1e7a99;
+  color: white;
+  font-size: 2opx;
+  border-radius: 50px;
+  padding: 7px 20px;
+}
