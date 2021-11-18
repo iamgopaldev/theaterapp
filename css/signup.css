@@ -1,19 +1,56 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+body {
+  /* box-sizing: border-box; */
   font-family: Monolisa, Arial, Helvetica, sans-serif;
+  color: rgb(41, 42, 44);
+  margin: 20px 20px;
+  background-color: white;
+}
+/* Navigation section style */
+
+.main-header {
+  font-size: 18px;
+  padding: 3px 45px;
+  text-decoration: none;
+  color: rgb(41, 42, 44);
+}
+.home-link {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-body {
-  background-color: white;
+li {
+  float: right;
+}
+
+li .nav-link {
+  display: block;
+  color: rgb(41, 42, 44);
+  font-size: 15px;
+  text-align: center;
+  padding: 14px 45px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li .nav-link:hover {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+}
+
+.title-left {
+  float: left;
 }
 
 form {
   width: 450px;
   height: auto;
   border-radius: 5px;
-  margin: 8% auto;
+  margin: 2% auto;
   box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
   padding: 2%;
   background-color: rgb(41, 42, 44);
@@ -54,8 +91,8 @@ input[class="form-input"] {
   width: 250px;
   height: 50px;
 
-  margin-top: 2%;
-  padding: 15px;
+  margin-top: 4%;
+  padding: 2px 15px;
 
   font-size: 16px;
   color: #5e6472;
@@ -102,7 +139,8 @@ button {
   float: none;
   margin-left: 3%;
 }
-.frgt-pass, .sign-up {
+.frgt-pass,
+.sign-up {
   background: white;
 }
 

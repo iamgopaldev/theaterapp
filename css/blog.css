@@ -1,17 +1,59 @@
 body {
   font-family: Monolisa, Arial, Helvetica, sans-serif;
   color: rgb(41, 42, 44);
-  border: 2px solid gray;
-  border-radius: 6px;
+  margin: 20px 20px;
 }
-h1{
+
+/* Navigation section style */
+
+.main-header {
+  font-size: 18px;
+  padding: 3px 45px;
+  text-decoration: none;
+  color: rgb(41, 42, 44);
+}
+.home-link {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li .nav-link {
+  display: block;
+  color: rgb(41, 42, 44);
+  font-size: 15px;
+  text-align: center;
+  padding: 14px 45px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li .nav-link:hover {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+}
+
+.title-left {
+  float: left;
+}
+
+h1 {
   text-decoration: underline;
-  font-size: 28px;
+  font-size: 2em;
 }
-h1, h2{
+h1,
+h2 {
   text-align: center;
 }
-article img{
+article img {
   margin: 20px 500px;
   border-radius: 6px;
 }
@@ -24,6 +66,7 @@ article p {
   padding: 30px 100px;
   margin: 5px 200px;
 }
-article h3, article h4{
+article h3,
+article h4 {
   text-align: center;
 }

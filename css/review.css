@@ -3,6 +3,48 @@ body {
   color: rgb(41, 42, 44);
   margin: 20px 20px;
 }
+
+/* Navigation section style */
+.main-header {
+  font-size: 18px;
+  padding: 3px 45px;
+  text-decoration: none;
+  color: rgb(41, 42, 44);
+}
+.home-link {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li .nav-link {
+  display: block;
+  color: rgb(41, 42, 44);
+  font-size: 15px;
+  text-align: center;
+  padding: 14px 45px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li .nav-link:hover {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+}
+
+.title-left {
+  float: left;
+}
+
+/*  */
 .heading-title {
   text-align: center;
   text-decoration: underline;
