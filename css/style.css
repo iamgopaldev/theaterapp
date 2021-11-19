@@ -1,7 +1,7 @@
 .body-style {
   font-family: Monolisa, Arial, Helvetica, sans-serif;
   color: rgb(41, 42, 44);
-  margin: 20px 20px;
+  /* margin: 20px 20px; */
 }
 
 /* Navigation section style */
@@ -58,10 +58,71 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
+/* bookshow section */
 
+.bookshow-section {
+  background-color: #f8f6f1;
+  border: 2px solid #f8f6f1;
+  border-radius: 4px;
+  padding: 20px 20px;
+  margin: 40px 50px;
+}
+.bookshow-article-img {
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+  margin: 0px 2px;
+}
+.bookshow-section a {
+  text-decoration: none;
+  color: rgb(97, 43, 43);
+}
+
+/* blog section */
+
+.blog-section {
+  background-color: #f8f6f1;
+  border: 2px solid #f8f6f1;
+  border-radius: 4px;
+  padding: 20px 20px;
+  margin: 40px 50px;
+}
+.blog-article-image {
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+  margin: 0px 300px;
+}
+.blog-article-heading {
+  float: center;
+}
+.blog-article-heading a {
+  text-decoration: none;
+  color: rgb(97, 43, 43);
+}
+
+/* review section */
+.review-section {
+  background-color: #f8f6f1;
+  border: 2px solid #f8f6f1;
+  border-radius: 4px;
+  padding: 20px 20px;
+  margin: 40px 50px;
+}
+.review-article-image {
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+  margin: 0px 400px;
+}
+.review-article-heading a{
+  text-decoration: none;
+  color: rgb(97, 43, 43);
+}
 /* Footer Section Style */
 .footer-style {
-  position: fixed;
+  position: initial;
+  padding: 10px 3px;
   left: 0;
   bottom: 0;
   width: 100%;
