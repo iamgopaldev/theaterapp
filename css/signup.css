@@ -86,7 +86,6 @@ header h2 {
   border-radius: 5px 0px 0px 5px;
 }
 
-
 input[class="form-input"] {
   width: 250px;
   height: 50px;
@@ -101,7 +100,6 @@ input[class="form-input"] {
   border: none;
 
   border-radius: 0px 5px 5px 0px;
-  
 }
 input[id="txt-input"] {
   width: 250px;
@@ -146,4 +144,10 @@ button {
 
 button:hover {
   background-color: beige;
+}
+.sign-up a {
+  text-decoration: none;
+}
+.invisible-text {
+  color: #292a2c;
 }

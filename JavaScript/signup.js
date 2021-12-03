@@ -8,3 +8,6 @@ function hide() {
   p.setAttribute("type", "password");
 }
 
+function signupFunction() {
+  alert("signup succesfully");
+}
